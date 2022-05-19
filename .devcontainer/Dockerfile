@@ -8,4 +8,4 @@ RUN apt update && \
     apt clean && rm -rf /var/lib/apt/lists/* && \
     pip3 install --no-cache-dir -r /requirements.txt
 
-EXPOSE 8080
+EXPOSE 8080 5000
